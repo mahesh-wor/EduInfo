@@ -70,3 +70,16 @@ input::-webkit-input-placeholder {
 .fieldTitle {
   font-family: monospace;
 }
+
+/*css for the engineering page*/
+.contentEngg li {
+  color: brown;
+    background-color: lightblue;
+    border-bottom : 2px solid yellow;
+}
+.contentEngg h4:hover {
+  color : black;
+}
+.contentEngg li:hover {
+  background-color: skyblue;
+}

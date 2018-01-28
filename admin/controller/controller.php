@@ -67,6 +67,22 @@ class Controller{
             return false;
            }
         }
-    
+
+          function selectone($table,$field,$pass){
+            $data=array();
+
+
+            $result= mysqli_query($this->mysqli,"SELECT * FROM $table WHERE $field='$pass'");
+
+            if(mysqli_num_rows($result)>0){
+                while($row = mysqli_fetch_assoc($result)){
+                    $data[]=$row;
+
+                }
+            }
+            return $data;
+        }  
+
+       
 }
 ?>
