@@ -1,3 +1,7 @@
+<?php
+include('admin/controller/controller.php');
+$con= new Controller();
+?>
 <! DOCTYPE html>
 <html>
 <head>
@@ -70,20 +74,29 @@
         </li>
                     <li class="col-sm-3">
                     <ul>
-                    <li class="dropdown-header"><a href="search.php">Search Courses</a></li>
-                    <li><a href="#">Engineering</a></li>
-                    <li><a href="#">Diploma</a></li>
-                    <li><a href="#">More</a></li>
+                    <li class="dropdown-header"><a href="search.php">Search Field</a></li>
+                  <?php
+                    $result=$con->selectAll('tbl_field');
+                    foreach($result as $display){ 
+                   ?>
+                    <li><a href="<?=$display['field']?>.php"><?=$display['field']?></a></li>
+                   <?php } ?>
                     <li class="divider"></li>
-                    <li class="dropdown-header"><a href="#">Choose Courses</a></li>
+                    <li class="dropdown-header"><a href="question.php">Choose Courses</a></li>
                     </ul>
                     </li>
                     
                     <li class="col-sm-3">
                         <ul>
-                            <li class="dropdown-header"><a href="#">Compair Courses</a></li>                         
+                            <li class="dropdown-header"><a href="compare.php">Compare Courses</a></li>                         
                         </ul>
                     </li>
+                    <li class="col-sm-3">
+                        <ul>
+                            <li class="dropdown-header"><a href="grading.php">Grading Of Nepal</a></li>                         
+                        </ul>
+                    </li>
+
             </ul>               
             </li>
                             

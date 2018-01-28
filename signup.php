@@ -109,5 +109,14 @@
           </div>
         </div>
       </div> 
+    </form>
 <?php include 'footer.php';?>
-</form>
+<?php
+
+if(isset($_POST['submit'])){
+    unset($_POST['submit']);
+    $data=$_POST;
+    $con->insertRow('tbl_register',$data);
+
+}
+?>

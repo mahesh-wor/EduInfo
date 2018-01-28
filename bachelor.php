@@ -43,9 +43,9 @@
       	<div class="col-md-offset-1 col-md-10">
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h4><strong>DENGINEERING</strong></h4></div>
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+            <div class="panel-heading"><h4><strong>ENGINEERING</strong></h4></div>
+              <div class="panel-body"><p>Engineering study and degree has been a highly respected academic course in Nepalese society. Nepal has pretty decent engineering college and has been producing efficient, qualified engineers every year.</p><br>
+
               </div>
                 <div class="card-footer">
                   <a href="#" class="btn btn-primary">Find Out More!</a>
@@ -56,8 +56,7 @@
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="panel panel-default">
             <div class="panel-heading"><h4><strong>MBBS</strong></h4></div>
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+              <div class="panel-body"><p>The career in MBBS is very rewarding career for those who are interested in Science and dealing with sick people. This profession requires a lot of hard work and gives the satisfaction of curing patients from sickness. After MBBS, post graduate level studies (MD or MS) can be conducted</p>
               </div>
                 <div class="card-footer">
                   <a href="#" class="btn btn-primary">Find Out More!</a>
@@ -67,9 +66,8 @@
 
       <div class="col-lg-3 col-md-6 mb-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h4><strong>MANAGER</strong></h4></div>
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+            <div class="panel-heading"><h4><strong>Foresty</strong></h4></div>
+              <div class="panel-body"><p>In Nepal you can join forestry education immediately after completing your school level or completing your +2 in science faculty or after completing your SLC are Eligibility to study diploma in forestry in Nepal. In government sector there is great scope for forestry graduates in many sectors.</p>
               </div>
                 <div class="card-footer">
                   <a href="#" class="btn btn-primary">Find Out More!</a>
@@ -79,9 +77,8 @@
 
         <div class="col-lg-3 col-md-6 mb-4">
           <div class="panel panel-default">
-            <div class="panel-heading"><h4><strong>CHATER ACCOUNTANT (CA)</strong></h4></div>
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
+            <div class="panel-heading"><h4><strong>Chartered Accountant(CA)</strong></h4></div>
+              <div class="panel-body"><p>Chartered Accountants, today hold top management position in public as well as private sector. By dint of professional qualification and specialized knowledge, the Chartered Accountants are rendering various types of consultancy services like formulation of profit planning programme, guiding the managerial decisions etc.</p>
               </div>
                 <div class="card-footer">
                   <a href="#" class="btn btn-primary">Find Out More!</a>
